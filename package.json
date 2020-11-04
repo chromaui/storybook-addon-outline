@@ -1,5 +1,5 @@
 {
-  "name": "storybook-outline",
+  "name": "storybook-addon-outline",
   "version": "1.0.0",
   "description": "A storybook addon for visually debugging CSS layout and alignment",
   "scripts": {
