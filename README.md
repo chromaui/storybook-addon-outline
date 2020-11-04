@@ -22,4 +22,4 @@ module.exports = {
 
 ### Usage
 
-Click on the outline icon in the toolbar to toggle the outlines.
+Click on the outline button in the toolbar to toggle the outlines.
