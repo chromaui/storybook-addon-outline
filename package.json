@@ -8,6 +8,7 @@
     "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "start": "concurrently \"npm run storybook\" \"npm run build -- --watch\"",
     "build-storybook": "build-storybook"
   },
   "keywords": [
@@ -34,6 +35,7 @@
     "@storybook/addon-essentials": "next",
     "@storybook/react": "next",
     "babel-loader": "^8.1.0",
+    "concurrently": "^5.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-is": "^17.0.1",
