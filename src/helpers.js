@@ -7,7 +7,7 @@ export const clearStyles = (selector) => {
 
 const clearStyle = (selector) => {
   const element = document.getElementById(selector);
-  if (element) {
+  if (element && element.parentElement) {
     element.parentElement.removeChild(element);
   }
 };

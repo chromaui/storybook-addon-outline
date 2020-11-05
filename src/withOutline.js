@@ -15,16 +15,7 @@ export const withOutline = (StoryFn, context) => {
       : '.sb-show-main';
 
     return outlineCSS(selector);
-  }, [context]);
-
-  // Clear styles for the previous viewMode
-  useEffect(() => {
-    const selectorId = isInDocs
-      ? `addon-outline`
-      : `addon-outline-docs-${context.id}`;
-
-    clearStyles(selectorId);
-  }, [context]);
+  }, [context.id]);
 
   useEffect(() => {
     const selectorId = isInDocs
@@ -37,7 +28,11 @@ export const withOutline = (StoryFn, context) => {
     }
 
     addOutlineStyle(selectorId, outlineStyles);
-  }, [isActive, outlineStyles, context]);
+
+    return () => {
+      clearStyles(selectorId);
+    };
+  }, [isActive, outlineStyles, context.id]);
 
   return StoryFn();
 };
