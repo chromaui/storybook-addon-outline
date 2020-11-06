@@ -1,20 +1,10 @@
 import React, { memo, useCallback } from 'react';
-
-import { useGlobals, useParameter } from '@storybook/api';
+import { useGlobals } from '@storybook/api';
 import { Icons, IconButton } from '@storybook/components';
-
 import { PARAM_KEY as OUTLINE_PARAM_KEY } from './constants';
 
 export const OutlineSelector = memo(() => {
   const [globals, updateGlobals] = useGlobals();
-
-  const { outline } = useParameter(OUTLINE_PARAM_KEY, {
-    outline: { disable: false },
-  });
-
-  if (outline.disable) {
-    return null;
-  }
 
   const isActive = globals[OUTLINE_PARAM_KEY]?.outline || false;
 
