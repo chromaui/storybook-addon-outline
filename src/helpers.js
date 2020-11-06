@@ -7,12 +7,12 @@ export const clearStyles = (selector) => {
 
 const clearStyle = (selector) => {
   const element = document.getElementById(selector);
-  if (element) {
+  if (element && element.parentElement) {
     element.parentElement.removeChild(element);
   }
 };
 
-export const addOutlineStyle = (selector, css) => {
+export const addOutlineStyles = (selector, css) => {
   const existingStyle = document.getElementById(selector);
   if (existingStyle) {
     if (existingStyle.innerHTML !== css) {

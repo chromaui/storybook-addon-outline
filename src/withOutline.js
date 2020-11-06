@@ -1,12 +1,12 @@
 import { useMemo, useEffect } from '@storybook/addons';
 
-import { clearStyles, addOutlineStyle } from './helpers';
-import { PARAM_KEY as OUTLINE_PARAM_KEY } from './constants';
+import { clearStyles, addOutlineStyles } from './helpers';
+import { PARAM_KEY } from './constants';
 import outlineCSS from './outlineCSS';
 
 export const withOutline = (StoryFn, context) => {
   const { globals } = context;
-  const isActive = globals[OUTLINE_PARAM_KEY]?.outline === true;
+  const isActive = globals[PARAM_KEY] === true;
   const isInDocs = context.viewMode === 'docs';
 
   const outlineStyles = useMemo(() => {
@@ -15,16 +15,7 @@ export const withOutline = (StoryFn, context) => {
       : '.sb-show-main';
 
     return outlineCSS(selector);
-  }, [context]);
-
-  // Clear styles for the previous viewMode
-  useEffect(() => {
-    const selectorId = isInDocs
-      ? `addon-outline`
-      : `addon-outline-docs-${context.id}`;
-
-    clearStyles(selectorId);
-  }, [context]);
+  }, [context.id]);
 
   useEffect(() => {
     const selectorId = isInDocs
@@ -36,8 +27,12 @@ export const withOutline = (StoryFn, context) => {
       return;
     }
 
-    addOutlineStyle(selectorId, outlineStyles);
-  }, [isActive, outlineStyles, context]);
+    addOutlineStyles(selectorId, outlineStyles);
+
+    return () => {
+      clearStyles(selectorId);
+    };
+  }, [isActive, outlineStyles, context.id]);
 
   return StoryFn();
 };
