@@ -1,12 +1,12 @@
 import { useMemo, useEffect } from '@storybook/addons';
 
 import { clearStyles, addOutlineStyle } from './helpers';
-import { PARAM_KEY as OUTLINE_PARAM_KEY } from './constants';
+import { PARAM_KEY } from './constants';
 import outlineCSS from './outlineCSS';
 
 export const withOutline = (StoryFn, context) => {
   const { globals } = context;
-  const isActive = globals[OUTLINE_PARAM_KEY]?.outline === true;
+  const isActive = globals[PARAM_KEY] === true;
   const isInDocs = context.viewMode === 'docs';
 
   const outlineStyles = useMemo(() => {
