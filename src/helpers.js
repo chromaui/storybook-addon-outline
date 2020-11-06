@@ -12,7 +12,7 @@ const clearStyle = (selector) => {
   }
 };
 
-export const addOutlineStyle = (selector, css) => {
+export const addOutlineStyles = (selector, css) => {
   const existingStyle = document.getElementById(selector);
   if (existingStyle) {
     if (existingStyle.innerHTML !== css) {

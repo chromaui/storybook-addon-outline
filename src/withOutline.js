@@ -1,6 +1,6 @@
 import { useMemo, useEffect } from '@storybook/addons';
 
-import { clearStyles, addOutlineStyle } from './helpers';
+import { clearStyles, addOutlineStyles } from './helpers';
 import { PARAM_KEY } from './constants';
 import outlineCSS from './outlineCSS';
 
@@ -27,7 +27,7 @@ export const withOutline = (StoryFn, context) => {
       return;
     }
 
-    addOutlineStyle(selectorId, outlineStyles);
+    addOutlineStyles(selectorId, outlineStyles);
 
     return () => {
       clearStyles(selectorId);
