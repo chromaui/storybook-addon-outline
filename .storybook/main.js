@@ -3,5 +3,5 @@ module.exports = {
     '../stories/**/*.stories.mdx',
     '../stories/**/*.stories.@(js|jsx|ts|tsx)',
   ],
-  addons: ['@storybook/addon-essentials', '../preset.js'],
+  addons: ['@storybook/addon-essentials', '../src/register.js'],
 };
