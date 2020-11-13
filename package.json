@@ -1,7 +1,11 @@
 {
   "name": "storybook-addon-outline",
   "version": "1.0.0",
-  "description": "A storybook addon for visually debugging CSS layout and alignment",
+  "description": "Outline all elements with CSS to help with layout placement and alignment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chromaui/storybook-outline"
+  },
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "babel ./src --out-dir ./dist",
@@ -11,17 +15,6 @@
     "start": "concurrently \"npm run storybook\" \"npm run build -- --watch\"",
     "build-storybook": "build-storybook"
   },
-  "storybook": {
-    "displayName": "Outline",
-    "unsupportedFrameworks": ["react-native"]
-  },
-  "keywords": [
-    "storybook-addons",
-    "outline",
-    "css",
-    "layout",
-    "debug"
-  ],
   "author": "winkerVSbecks",
   "license": "MIT",
   "main": "dist/preset.js",
@@ -30,14 +23,29 @@
     "README.md",
     "*.js"
   ],
+  "storybook": {
+    "displayName": "Outline",
+    "unsupportedFrameworks": [
+      "react-native"
+    ],
+    "icon": "https://user-images.githubusercontent.com/42671/99124121-926ce480-25cf-11eb-80c9-44dc2be6b5b3.png"
+  },
+  "keywords": [
+    "storybook-addons",
+    "outline",
+    "css",
+    "layout",
+    "debug"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
-    "@storybook/addon-actions": "next",
-    "@storybook/addon-essentials": "next",
-    "@storybook/react": "next",
+    "@storybook/addon-actions": "^6.1.0-beta.6",
+    "@storybook/addon-essentials": "^6.1.0-beta.6",
+    "@storybook/react": "^6.1.0-beta.6",
+    "auto": "^10.3.0",
     "babel-loader": "^8.1.0",
     "concurrently": "^5.3.0",
     "react-is": "^17.0.1",
@@ -49,7 +57,7 @@
     "react-dom": "^17.0.1"
   },
   "peerDependencies": {
-    "@storybook/addons": "next",
+    "@storybook/addons": "^6.1.0-beta.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
