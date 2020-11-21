@@ -13,7 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "start": "concurrently \"npm run storybook\" \"npm run build -- --watch\"",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "release": "npm run build && auto shipit"
   },
   "author": "winkerVSbecks",
   "license": "MIT",
