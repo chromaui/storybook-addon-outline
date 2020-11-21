@@ -14,7 +14,7 @@
     "storybook": "start-storybook -p 6006",
     "start": "concurrently \"npm run storybook\" \"npm run build -- --watch\"",
     "build-storybook": "build-storybook",
-    "release": "npm run build && auto shipit"
+    "release": "npm run build && auto shipit --base-branch=main"
   },
   "author": "winkerVSbecks",
   "license": "MIT",
