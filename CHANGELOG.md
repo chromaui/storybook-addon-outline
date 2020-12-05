@@ -1,3 +1,16 @@
+# v1.2.0 (Fri Dec 04 2020)
+
+#### 🚀 Enhancement
+
+- Refactor preset [#7](https://github.com/chromaui/storybook-outline/pull/7) ([@shilman](https://github.com/shilman))
+- Fix dependencies [#6](https://github.com/chromaui/storybook-outline/pull/6) ([@shilman](https://github.com/shilman))
+
+#### Authors: 1
+
+- Michael Shilman ([@shilman](https://github.com/shilman))
+
+---
+
 # v1.1.0 (Fri Nov 20 2020)
 
 #### 🚀 Enhancement
