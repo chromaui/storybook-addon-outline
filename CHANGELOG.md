@@ -2,8 +2,8 @@
 
 #### 🚀 Enhancement
 
-- Refactor preset [#7](https://github.com/chromaui/storybook-outline/pull/7) ([@shilman](https://github.com/shilman))
-- Fix dependencies [#6](https://github.com/chromaui/storybook-outline/pull/6) ([@shilman](https://github.com/shilman))
+- Refactor preset [#7](https://github.com/chromaui/storybook-addon-outline/pull/7) ([@shilman](https://github.com/shilman))
+- Fix dependencies [#6](https://github.com/chromaui/storybook-addon-outline/pull/6) ([@shilman](https://github.com/shilman))
 
 #### Authors: 1
 
@@ -15,7 +15,7 @@
 
 #### 🚀 Enhancement
 
-- Remove customization from babel config [#5](https://github.com/chromaui/storybook-outline/pull/5) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+- Remove customization from babel config [#5](https://github.com/chromaui/storybook-addon-outline/pull/5) ([@winkerVSbecks](https://github.com/winkerVSbecks))
 
 #### ⚠️ Pushed to `main`
 
@@ -31,7 +31,7 @@
 
 #### 🚀 Enhancement
 
-- Remove customization from babel config [#5](https://github.com/chromaui/storybook-outline/pull/5) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+- Remove customization from babel config [#5](https://github.com/chromaui/storybook-addon-outline/pull/5) ([@winkerVSbecks](https://github.com/winkerVSbecks))
 
 #### Authors: 1
 
