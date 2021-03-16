@@ -29,14 +29,16 @@
     "unsupportedFrameworks": [
       "react-native"
     ],
-    "icon": "https://user-images.githubusercontent.com/42671/99124121-926ce480-25cf-11eb-80c9-44dc2be6b5b3.png"
+    "icon": "https://user-images.githubusercontent.com/263385/101991674-48355c80-3c7c-11eb-9686-f684e755fcdd.png"
   },
   "keywords": [
     "storybook-addons",
     "outline",
     "css",
     "layout",
-    "debug"
+    "debug",
+    "storybook-addon",
+    "style"
   ],
   "devDependencies": {
     "@babel/cli": "^7.12.1",
