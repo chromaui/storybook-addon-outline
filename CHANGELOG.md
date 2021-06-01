@@ -1,3 +1,25 @@
+# v1.3.0 (Tue Jun 01 2021)
+
+#### 🚀 Enhancement
+
+- switch to yarn and 6.3.0-beta [#9](https://github.com/chromaui/storybook-addon-outline/pull/9) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### 🐛 Bug Fix
+
+- Update Storybook addon metadata [#8](https://github.com/chromaui/storybook-addon-outline/pull/8) ([@coderkevin](https://github.com/coderkevin))
+
+#### ⚠️ Pushed to `main`
+
+- Rename repository ([@ghengeveld](https://github.com/ghengeveld))
+
+#### Authors: 3
+
+- Gert Hengeveld ([@ghengeveld](https://github.com/ghengeveld))
+- Kevin Killingsworth ([@coderkevin](https://github.com/coderkevin))
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.2.0 (Fri Dec 04 2020)
 
 #### 🚀 Enhancement
