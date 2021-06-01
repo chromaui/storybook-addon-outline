@@ -1,3 +1,15 @@
+# v1.3.1 (Tue Jun 01 2021)
+
+#### 🐛 Bug Fix
+
+- add ts-dedent dependency [#10](https://github.com/chromaui/storybook-addon-outline/pull/10) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### Authors: 1
+
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.3.0 (Tue Jun 01 2021)
 
 #### 🚀 Enhancement
