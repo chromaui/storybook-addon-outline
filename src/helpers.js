@@ -1,5 +1,3 @@
-import { document } from 'global';
-
 export const clearStyles = (selector) => {
   const selectors = Array.isArray(selector) ? selector : [selector];
   selectors.forEach(clearStyle);
