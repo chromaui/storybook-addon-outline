@@ -1,3 +1,15 @@
+# v1.3.2 (Wed Jun 02 2021)
+
+#### ⚠️ Pushed to `main`
+
+- remove globals reference in helpers ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### Authors: 1
+
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.3.1 (Tue Jun 01 2021)
 
 #### 🐛 Bug Fix
