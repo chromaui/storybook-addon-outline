@@ -1,3 +1,15 @@
+# v1.3.3 (Fri Jun 04 2021)
+
+#### 🐛 Bug Fix
+
+- Add build support for both cjs and esm [#11](https://github.com/chromaui/storybook-addon-outline/pull/11) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### Authors: 1
+
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.3.2 (Wed Jun 02 2021)
 
 #### ⚠️ Pushed to `main`
