@@ -1,3 +1,15 @@
+# v1.3.4 (Tue Jun 15 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Update package.json ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### Authors: 1
+
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.3.3 (Fri Jun 04 2021)
 
 #### 🐛 Bug Fix
