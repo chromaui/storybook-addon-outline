@@ -1,3 +1,17 @@
+# v1.4.0 (Thu Jun 24 2021)
+
+#### 🚀 Enhancement
+
+- remove icon from readme [#13](https://github.com/chromaui/storybook-addon-outline/pull/13) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+- Bump Storybook dependencies to 6.3.0 [#12](https://github.com/chromaui/storybook-addon-outline/pull/12) ([@shilman](https://github.com/shilman))
+
+#### Authors: 2
+
+- Michael Shilman ([@shilman](https://github.com/shilman))
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.3.4 (Tue Jun 15 2021)
 
 #### ⚠️ Pushed to `main`
