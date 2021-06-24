@@ -1,5 +1,3 @@
-<img src="https://user-images.githubusercontent.com/42671/99124121-926ce480-25cf-11eb-80c9-44dc2be6b5b3.png" width="200" height="200">
-
 # Storybook Addon Outline
 
 Storybook Addon Outline can be used for visually debugging CSS layout and alignment inside the preview in [Storybook](https://storybook.js.org). Based on [Pesticide](https://github.com/mrmrs/pesticide), it draws outlines around every single element in the preview pane.
