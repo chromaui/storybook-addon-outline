@@ -1,3 +1,15 @@
+# v1.4.1 (Sat Jun 26 2021)
+
+#### 🐛 Bug Fix
+
+- Add default for the outline global value [#14](https://github.com/chromaui/storybook-addon-outline/pull/14) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### Authors: 1
+
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.4.0 (Thu Jun 24 2021)
 
 #### 🚀 Enhancement
