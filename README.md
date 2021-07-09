@@ -1,4 +1,6 @@
-# Storybook Addon Outline
+**⚠️ MOVED:** This addon was moved to the [Storybook monorepo](https://github.com/storybookjs/storybook/tree/next/addons/outline)
+
+# Storybook Addon Outline (moved)
 
 Storybook Addon Outline can be used for visually debugging CSS layout and alignment inside the preview in [Storybook](https://storybook.js.org). Based on [Pesticide](https://github.com/mrmrs/pesticide), it draws outlines around every single element in the preview pane.
 
