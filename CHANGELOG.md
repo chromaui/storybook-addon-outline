@@ -1,3 +1,19 @@
+# v1.4.2 (Sun Dec 05 2021)
+
+#### 🐛 Bug Fix
+
+- update storybook deps to 6.3 [#15](https://github.com/chromaui/storybook-addon-outline/pull/15) ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### ⚠️ Pushed to `main`
+
+- Update README.md ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+#### Authors: 1
+
+- Varun Vachhar ([@winkerVSbecks](https://github.com/winkerVSbecks))
+
+---
+
 # v1.4.1 (Sat Jun 26 2021)
 
 #### 🐛 Bug Fix
